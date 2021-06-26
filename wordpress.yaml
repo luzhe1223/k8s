@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: wordpress
-  namespace: blog
+  namespace: default
 spec:
   containers:
   - name: wordpress
